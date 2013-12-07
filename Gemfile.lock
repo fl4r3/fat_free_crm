@@ -1,3 +1,12 @@
+GIT
+  remote: git://github.com/ndbroadbent/ransack_ui.git
+  revision: f7cdd40df29ecbc9c53301d4642dc71b6a671dee
+  branch: fix_association_bug
+  specs:
+    ransack_ui (1.1.0)
+      ransack
+      ransack_chronic (>= 1.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -161,7 +170,7 @@ GEM
       activesupport (>= 3.0.0)
       cocaine (~> 0.5.0)
       mime-types
-    pg (0.14.1)
+    pg (0.17.0)
     polyamorous (0.5.0)
       activerecord (~> 3.0)
     polyglot (0.3.3)
@@ -216,9 +225,6 @@ GEM
       activerecord (~> 3.0)
       chronic (~> 0.6.7)
       polyamorous (~> 0.5.0)
-    ransack_ui (1.1.0)
-      ransack
-      ransack_chronic (>= 1.1.0)
     rb-fchange (0.0.6)
       ffi
     rb-fsevent (0.9.3)
@@ -349,7 +355,7 @@ DEPENDENCIES
   rails (~> 3.2.12)
   rails3-jquery-autocomplete
   ransack_ffcrm (~> 0.7.1)
-  ransack_ui (>= 1.1.0)
+  ransack_ui!
   rb-fchange
   rb-fsevent
   rb-inotify

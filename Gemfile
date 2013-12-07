@@ -90,4 +90,6 @@ group :assets do
   gem 'therubyracer', :platform => :ruby unless ENV["CI"]
 end
 
+gem 'ransack_ui', github: 'ndbroadbent/ransack_ui', branch: :fix_association_bug
+
 gem 'turbo-sprockets-rails3'
