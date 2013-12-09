@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/ndbroadbent/ransack_ui.git
-  revision: dc49579a5a8fc827e09e3fdd2a9b558626e03b17
+  revision: 6e9c63d725dcaeeec6fea9e01eef894cf1d770fa
   branch: fix_association_bug
   specs:
     ransack_ui (1.1.0)
